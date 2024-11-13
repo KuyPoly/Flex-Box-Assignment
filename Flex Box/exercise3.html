@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            color: white;
+        }
+        header {
+            background-color: #1e90ff;
+            padding: 1em;
+            border-radius: 0.5rem;
+            flex-grow: 4;
+        }
+
+        main {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            gap: 1em;
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+
+        .item-box {
+            background-color: #3cb371;
+            border-radius: 0.5em;
+            flex-grow: 1;
+            padding: 1em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: left;
+        }
+        p{
+            margin: 1em;
+            align-self: left;
+        }
+        .item-con{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 1em;
+            margin-bottom: 1em;
+            margin-left: 1em;
+            margin-right: 1em;
+            align-self: center;
+        }
+        
+
+        .item{
+            background-color:  #2f8d59;
+            border-radius: 0.5em;
+            padding: 1em;
+
+        }
+
+        .side{
+            background-color: #ff6347;
+            border-radius: 0.5em;
+            flex-grow: 1;
+            padding: 1em;
+        }
+
+        footer{
+            background-color: #4169e1;
+            border-radius: 0.5em;
+            padding: 1em;
+            flex-grow: 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>Header</header>
+        <main>
+            <div class="item-box">
+                <p>main</p>
+                <div class="item-con">
+                    <div class="item">Item</div>
+                    <div class="item">Item</div>
+                    <div class="item">Item</div>
+                    <div class="item">Item</div>
+                    <div class="item">Item</div>
+                    <div class="item">Item</div>
+                    <div class="item">Item</div>
+                    <div class="item">Item</div>
+                    <div class="item">Item</div>
+                    <div class="item">Item</div>
+                    <div class="item">Item</div>
+                </div>
+            </div>
+            <div class="side">Sidebar</div>
+        </main>
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>
